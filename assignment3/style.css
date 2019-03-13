@@ -1,0 +1,314 @@
+/*CSS style to Assignment 3*/
+
+/* Page Design*/
+.container{
+    width: 100%;
+    height: auto;
+    margin:10px;
+    background-size:cover ;
+}
+
+.logo {
+    float: left;
+    width: 225px;
+    height: 225px;
+}
+
+header {
+    width: 100%;
+    height: 225px;
+    font-size: x-large;
+    margin-left: 60px;
+    margin-right: 80px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    clear: both;
+    color: black;
+    padding-top: 20px;
+}
+
+main{
+    height:auto;
+    padding:10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    background-color: #006400;
+}
+/*Print*/
+
+.media{
+    float:right;
+    width: 10%;
+    margin-right:10px;
+}
+
+/* navigation Menu*/
+
+nav{
+    float:left;
+    width: 100%;
+}
+nav ul{
+    width: 1024px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    list-style-type: none;
+}
+
+nav li{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left:30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+nav li > a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li > a:hover{
+    color:darkslategray;
+}
+
+nav li{
+    position: relative;
+}
+.section2 ul{
+    font-size: 25px;
+}
+nav a:hover::before{
+    width: 100%;
+}
+
+nav a.selected::before{
+    width:100%;
+}
+.selectedh{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.selectedh1{
+    text-align: left;
+    color: black;
+    padding-left: 45px;
+}
+
+.selectedh2{
+    text-align: left;
+    color: #006400;
+    padding-left: 45px;
+}
+.selectedh3{
+    text-align: left;
+    color: darkgreen;
+    padding-left: 55px;
+    font-size: 23px;
+}
+
+.selectedh4{
+    font-size: 80px;
+    color: darkgreen;
+    font-style: italic;
+}
+a.selectedh:link {
+    color: darkgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.selectedh:visited {
+    background-color: green;
+    text-decoration: none;
+    color: #2f4f4f;
+}
+a.selectedh:active{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: white;
+}
+a.selectedh:hover {
+    color: black;
+   text-decoration:none;
+}
+
+/* Paragraph Design*/
+p{
+    margin: 25px;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 130%;
+}
+.p1{
+    font-size: 20px;
+    line-height: 100%;
+}
+/* Figure Design*/
+figure{
+    float: left;
+    margin-right:35px;
+}
+figcaption{
+    display: block;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: .5em;
+    margin-left: 35px;
+    text-align:center;
+}
+/* Section List Design*/
+
+section ol{
+    font-size: 25px;
+    list-style-type: none;
+   }
+
+
+/* Sections Dessign*/
+section {
+    width: 1024px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: auto;
+    top: 10px;
+    bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    line-height: 30%;
+   }
+
+.section1 {
+    width: 1024px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: auto;
+    top: 15px;
+    bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    line-height: 100%;
+    }
+
+.section1 li {
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 23px;
+    padding-top: 10px;
+    line-height: 100%;
+}
+
+.section2 {
+    width: 1024px;
+    height:auto;
+    margin-left: 10px;
+    margin-right: auto;
+    top: 10px;
+    bottom: 10px;
+    padding-left: 23px;
+    padding-right: 10px;
+    line-height: 100%;
+}
+
+.section2 li {
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.section2 ol{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/* Photos Design*/
+.img1{
+    float: right;
+    margin-left:15px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+
+.img2{
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.img3{
+    float: right;
+    margin-right: 15px;
+    margin-top: -50px;
+}
+
+.img4{
+    float: right;
+    margin-right: 15px;
+    margin-top: -80px;
+}
+
+.img5{
+    float: right;
+    margin-right: 15px;
+    margin-top: -7px;
+}
+
+.img6{
+    float: right;
+    margin-left:10px;
+    margin-top: -106px;
+}
+
+.img7{
+    float: right;
+    margin-right: 15px;
+    margin-top: -200px;
+}
+
+.img8{
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    }
+
+.img9{
+    float: right;
+    margin-right: 15px;
+    margin-top: -145px;
+}
+
+/* Source*/
+section li{
+    font-size: 25px;
+}
+
+.section2 ul{
+    font-size: 25px;
+}
+section li > a{
+    color:black;
+    text-decoration: none;
+}
+
+section li > a:hover{
+    color:darkslategray;
+}
+
+section li{
+    position: relative;
+}
